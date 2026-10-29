@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ติดต่อเรา - วิทยาลัยเทคนิคนางรอง</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="photo/1.png" alt="โลโก้วิทยาลัยเทคนิคนางรอง" class="logo-img-file">
+      <div class="logo-text">
+        <h1>วิทยาลัยเทคนิคนางรอง</h1>
+        <p>Nangrong Technical College</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html"> หน้าหลัก</a></li>
+        <li><a href="history.html"> ประวัติความเป็นมา</a></li>
+        <li><a href="departments.html"> แผนกวิชา</a></li>
+        <li><a href="location.html"> ที่ตั้ง</a></li>
+        <li><a href="contact.html" class="active"> ติดต่อเรา</a></li>
+        <li><a href="https://www.facebook.com/nricec" target="_blank" class="btn-pr"> เพจประชาสัมพันธ์</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="page-section">
+      <h2 class="section-title">ติดต่อเรา</h2>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <img src="photo/6.png" alt="อาคารอำนวยการ" style="width: 100%; border-radius: 8px; margin-bottom: 15px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+          
+          <h3>ข้อมูลการติดต่อ</h3>
+          <p><strong>วิทยาลัยเทคนิคนางรอง</strong></p>
+          <p>📍 1 หมู่ 1 ถ.บ้านเก่า-แพงพวย ต.นางรอง อ.นางรอง จ.บุรีรัมย์ 31110</p>
+          <p>📞 <strong>โทรศัพท์:</strong> 044-631556 , 044-632318</p>
+          <p>📠 <strong>โทรสาร:</strong> 044-632008</p>
+          <p>✉️ <strong>อีเมล:</strong> nricec@yahoo.com</p>
+        </div>
+
+        <div>
+          <h3>ส่งข้อความถึงเรา</h3>
+          <form onsubmit="event.preventDefault(); alert('ส่งข้อความเรียบร้อยแล้ว');">
+            <div style="margin-bottom: 10px;">
+              <input type="text" placeholder="ชื่อ-นามสกุล" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 10px;">
+              <input type="email" placeholder="อีเมลติดต่อ" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 10px;">
+              <textarea placeholder="ข้อความของคุณ..." rows="4" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+            </div>
+            <button type="submit" style="background-color: #003366; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">ส่งข้อความ</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; วิทยาลัยเทคนิคนางรอง - Nangrong Technical College. All Rights Reserved.</p>
+    <p>ติดตามข่าวสารได้ที่ <a href="https://www.facebook.com/nricec" target="_blank">เพจประชาสัมพันธ์วิทยาลัยเทคนิคนางรอง</a></p>
+  </footer>
+
+</body>
+</html>
